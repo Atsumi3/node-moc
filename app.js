@@ -1,5 +1,4 @@
 var express = require('express');
-var resource = require('express-resource');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -60,6 +59,5 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(3000);
-
 
 module.exports = app;
